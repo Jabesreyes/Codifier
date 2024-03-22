@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }   
 
     function Desencriptar(){
-        // Obteniendo el texto ingresado por el usuario
+        // Obteniendo el texto ingresado por el usuari
         let texto = document.getElementById("texto").value;
         // Obteniendo el elemento donde se mostrará el mensaje desencriptado y declarandolo
         let mensajeDesencriptado = document.getElementById("mensaje");
