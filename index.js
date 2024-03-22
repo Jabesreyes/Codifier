@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         document.getElementById("copiar").style.display = "block";
 
-        swal("Texto Encriptado", "El texto ha sido encriptado correctamente", "success");
+        swal("Texto Encriptado", "El texto ha sido encriptado correctamente.", "success");
     }   
 
     function Desencriptar(){
