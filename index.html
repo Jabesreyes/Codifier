@@ -32,7 +32,7 @@
             <div class="iconos">
                 <!-- ICONO LINKEDIN -->
                 <a href="https://linkedin.com/in/jabes-reyes">
-                    <svg fill="#a7f3e1" height="30px" width="30px" version="1.1" id="Layer_1"
+                    <svg fill="#a7f3e1" height="40px" width="40px" version="1.1" id="Layer_1"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 310 310"
                         xml:space="preserve" stroke="#a7f3e1" transform="rotate(0)">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -56,7 +56,7 @@
                 <!-- ICONO GITHUB -->
                 <a href="https://github.com/Jabesreyes">
     
-                    <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                         stroke="#a7f3e1">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -73,7 +73,7 @@
             </div>
 
             <div class="texto">
-                <input type="text" placeholder="Ingrese el texto aqui.">
+                <input type="text"  id="texto" placeholder="Ingrese el texto aqui.">
             </div>
 
             <p class="advertencia">
@@ -97,11 +97,12 @@
         <!-- ASIDE MENSAJE ENCRIPTADO-DESENCRIPTADO -->
         <aside>
             <div class="container mensaje">
-                <img src="imgs/Muñeco.png" class="img-muñeco" alt="muñeco">
+                <img src="imgs/Muñeco.png" id="muñeco" class="img-muñeco" alt="muñeco">
 
-                <p class="ningun-msg"><strong>
+                <p class="ningun-msg" id="ningun"><strong>
                         Ningún mensaje fue encontrado</strong></p>
-                <p class="ingrese">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <p class="ingrese" id="mensaje">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <button class="copiar" id="copiar">Copiar</button>
             </div>
         </aside>
     </main>
